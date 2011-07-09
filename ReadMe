@@ -1,0 +1,8 @@
+This is a very useful tool. You can use it to dump a redis DB data into a 
+*.rds file, and import it into another redis DB. The all you should do is 
+execute commands like this :
+	>redis-dump 127.0.0.1 6379 0 dump001.rds 
+	>redis-import dump001.rds 127.0.0.1 6379 1 
+
+
+
